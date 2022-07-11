@@ -11,8 +11,6 @@ main{
 	
 }
 
-/* header section */
-
 header{
 	width:100%;
 	height:100vh;
@@ -92,31 +90,6 @@ header{
 .donate {
     text-align: center	
 }
-/* card section */
-.section-top{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-.section-top div{
-	width: 600px;
-	text-align: center;
-	
-}
-.section-top h3,.article-title{
-	font-family: 'Inter', sans-serif;
-	font-weight: 700;
-	font-size: 40px;
-	margin: 10px 50px;
-}
-.section-top p,.article-des{
-	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	color: #707070;
-	margin: 20px 30px;
-}
 .icons{
 	width: 100%;
 	margin: 0 auto;
@@ -136,14 +109,13 @@ header{
 	margin-left: 30px;
 }
 .icon-text h5{
-	font-family: 'Inter', sans-serif;
 	font-weight: 700;
 	font-size: 20px;
 	margin-bottom: 20px;
 	color: #121212;
 }
 .icon-text p{
-	font-family: 'Poppins', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #252424;
@@ -155,5 +127,86 @@ header{
 .all-icons{
 	display: flex;
 	padding-left: 12%;
+	padding-bottom: 100px;
 }
-	
+
+.image img{
+	width: 350px;
+	border-radius: 20px;
+	margin: 5px;	
+}
+.image{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.bottom-card{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.bottom-card div{
+	width: 800px;
+	text-align: center;
+	margin: 0 auto;
+}
+.bottom-card p{
+	padding: 0 80px;
+	border-bottom:2px dashed #aa6c31;
+}
+.donate-card{
+	width: 270px;
+	border: 1px solid rgb(221, 217, 217);
+	border-radius: 10px;
+	margin: 10px 25px;
+	padding-right: 20px;
+}
+.donate-card-img1{
+	width: 108%;
+	height: 200px;
+	border-radius: 10px 10px 0 0;
+}
+.donate-card-img2{
+	width: 108%;
+    border-radius: 10px 10px 0 0;
+	height: 215px;
+}
+.donate-card-img3{
+	width: 108%;
+    border-radius: 10px 10px 0 0;
+}
+.donate-card-img4{
+	width: 108%;
+	height: 200px;
+	border-radius: 10px 10px 0 0;
+}
+.card-des{
+	padding: 20px 15px;
+}
+.donate-card-title{
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+}
+.donate-card-des{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #262f3d;
+	margin: 10px 0;
+	text-align: justify;
+}
+.donate-link{
+	text-decoration: none;
+	color: #3c3ed1;
+	font-family: 'Inter', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	border-bottom: solid;
+}
+.cards {
+	display: flex;
+}
