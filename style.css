@@ -210,3 +210,25 @@ header{
 .cards {
 	display: flex;
 }
+footer p{
+	text-align: center;
+  }
+  .xy{
+    background-color: black;
+	margin-top: 7%;
+    padding-top: 20px;
+    padding-bottom: 10px
+	
+    
+}
+.x{
+    color: white;
+    text-align: center;
+    font-family: initial;
+}
+.y{
+	font-size: large;
+    color: white;
+    text-align: center
+	
+}      
