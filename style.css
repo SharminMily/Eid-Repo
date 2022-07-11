@@ -1,0 +1,159 @@
+body{
+    font-family: 'Arima', cursive;
+
+}
+*{
+	padding:0;
+	margin:0;
+}
+main{
+	width:100%;
+	
+}
+
+/* header section */
+
+header{
+	width:100%;
+	height:100vh;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(image/bgg.png); 
+
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-bottom:50px;
+}
+
+.bg{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,0));
+	display:flex;
+	align-items:center;
+}
+
+.bg-text{
+    margin-left:30%;
+	color: rgb(222, 231, 229);
+    position: center;
+	font-weight: bold;
+}
+.donate-btn{
+	width: 25%;
+	padding: 5px;
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	border:none;
+	cursor:pointer;
+	border-radius:10px;
+	background-image: linear-gradient(rgb(255, 169, 9), rgb(233, 49, 150));
+	tansition:.5s;
+	color: rgb(221, 213, 213);
+    font-family:'Inter',sans-serif;
+	font-size: 100%;
+}
+.plan{
+	margin-top: 40px;
+	margin-bottom: 30px;
+	position: center;
+	padding-left: 400px;
+	padding-right: 50px;
+}
+.v1-v1-text{
+	display: flex;
+	padding-top: 50;
+}
+.v1-text{
+	width:-50px ;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-left: 250px;
+	padding-right: 50px;
+}
+.v1{
+	padding-right: 200px;
+}
+.v2-v2-text{
+	display: flex;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.v2{
+	padding-left: 200px;
+	padding-right: 100px;
+	
+}
+.v2-text{
+	padding-top: 50px;
+	padding-bottom: 100px;
+	padding-left: 100px;
+	padding-right: 100px	 
+}
+.donate {
+    text-align: center	
+}
+/* card section */
+.section-top{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.section-top div{
+	width: 600px;
+	text-align: center;
+	
+}
+.section-top h3,.article-title{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 40px;
+	margin: 10px 50px;
+}
+.section-top p,.article-des{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #707070;
+	margin: 20px 30px;
+}
+.icons{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.icon{
+	width: 450px;
+	margin: 5px;
+	background-color: #f7eecb;
+	padding: 30px;
+	display: flex;
+	border-radius: 10px;
+}
+.icon-text{
+	margin-left: 30px;
+}
+.icon-text h5{
+	font-family: 'Inter', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 20px;
+	color: #121212;
+}
+.icon-text p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #252424;
+}
+.all-icon{
+	display: flex;
+	padding-left: 12%;
+}
+.all-icons{
+	display: flex;
+	padding-left: 12%;
+}
+	
